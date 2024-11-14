@@ -1,0 +1,69 @@
+/* Center container and keep it fixed */
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  /* Styling for the title */
+  h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Input and buttons styling */
+  input[type="text"], button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Adjusted to fit the width with padding */
+  }
+  
+  /* Style the buttons */
+  button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* List styling with fixed height and scroll */
+  #list {
+    max-height: 200px; /* Keeps the container fixed */
+    overflow-y: auto; /* Enables vertical scroll */
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Style each list item */
+  #list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+    text-align: left;
+  }
+  
+  /* Optional hover effect for list items */
+  #list li:hover {
+    background-color: #f1f1f1;
+  }
+  
+
+
